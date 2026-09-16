@@ -17,6 +17,7 @@ network:
   allowed:
     - github.blog
     - github.com
+    - awesome-copilot.github.com
 
 safe-outputs:
   create-pull-request:
@@ -35,6 +36,7 @@ Refresh the GitHub Info website content for Mona to review.
 3. Read any repository guidance or reference files needed for this task with the GitHub repository API tools. Do not use terminal, CLI, or sandboxed commands to read repository guidance or reference files.
 4. Use `web-fetch` to read `https://github.blog/latest/`.
 5. Use `web-fetch` to read `https://github.blog/changelog/`.
+6. Use `web-fetch` to read `https://awesome-copilot.github.com/workflows/`.
 
 ## Update
 
