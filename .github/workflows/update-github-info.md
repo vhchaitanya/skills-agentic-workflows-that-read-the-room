@@ -7,6 +7,8 @@ on:
 permissions:
   contents: read
 
+model: claude-sonnet-4.6
+
 tools:
   github:
     toolsets: [repos]
